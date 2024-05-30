@@ -1,21 +1,18 @@
-const obj1 = { "name": "person 1", "age": 5 };
-const obj2 = { "age": 5, "name": "person 1" };
-// for (let i = 0; i < obj1Keys.length; i++) {
-//     let data = obj1Keys[0];
-//     //console.log(obj2[prop]);
-//     if (obj1[prop] !== obj2[prop]) {
-//       return false;
-//     }
-//   }
+const isEqual = (obj1, obj2) => {
+  const obj1keys = Object.keys(obj1);
+  const obj2keys = Object.keys(obj2);
 
-//   return true;
-// }
+  if (obj1keys.length !== obj2keys.length) {
+    return false;
+  }
+  for (let objkey of obj1keys) {
+    if (obj1[objkey] !== obj2[objkey]) {
+      return false;
+    }
+  }
+  return true;
+};
+var obj1 = { name: "Person 1", age: 5 };
+var obj2 = { age: 5, name: "Person 1" };
 
-// Call the compareJSON function with the two objects as arguments
-if (compareJSON(obj1, obj2)) {
-  // If the function returns true, print a message indicating the objects have the same properties
-  console.log("isEqual");
-} else {
-  // If the function returns false, print a message indicating the objects do not have the same properties
-  console.log("isNotequal");
-}
+console.log(isEqual)
