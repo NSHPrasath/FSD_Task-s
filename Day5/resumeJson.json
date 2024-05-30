@@ -1,0 +1,43 @@
+{
+  "name": "Hariprasath N",
+  "contact": {
+    "email": "ns.h.prasath301@gmail.com",
+    "phone": "+919092722422",
+    "address": "2/232 southlerry, thirupugalur(po), nagapattinam(dt)-609704"
+  },
+    "education": [
+    {
+      "degree": "Bachelor of Science in Electronics and Communication",
+      "institution": "Anna University of Technology",
+      "location": "Nagapattinam, tamilnadu, india",
+      "year": "2012 - 2015"
+    }
+  ],
+  "experience": [
+    {
+      "position": "Senior Service Engineer",
+      "company": "j_link enterpriuses pvt.ltd.",
+      "location": "chennai, tamilnadu, india",
+      "dates": "2021 - Present",
+      "responsibilities": [
+        "Lead development team in designing and implementing complex software systems",
+        "Architect and develop scalable web applications using modern technologies",
+        "Mentor junior developers and conduct code reviews to maintain high code quality",
+        "Collaborate with cross-functional teams to deliver projects on time and within budget"
+      ]
+    },
+    {
+      "position": "Service Engineer",
+      "company": "jjs info tech pvt.ltd.",
+      "location": "coimbatore, tamilnadu, india",
+      "dates": "2015 - 2019",
+      "responsibilities": [
+        "Developed and maintained web applications for various clients",
+        "Worked closely with clients to understand requirements and provide technical solutions",
+        "Participated in Agile development process to deliver features iteratively",
+        "Contributed to the improvement of development processes and tools"
+      ]
+    }
+  ],
+  "languages": ["Tamil (Native)", "English", "Hindi"]
+}
