@@ -1,3 +1,1 @@
-function clear() {
-  outputScreen.value = "";
-}
+
