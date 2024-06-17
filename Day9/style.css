@@ -1,0 +1,25 @@
+        .square {
+            width: 100px;
+            height: 100px;
+            background-color: #000000;
+        }
+
+.deck {
+    width: 100%;
+    height: 100%;
+    background: greenyellow;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 10px;
+}
+
+.card {
+    width: 24%;
+    height: 100px;
+    background: red;
+    border: 1px solid black;
+    box-sizing: border-box;
+}
+
